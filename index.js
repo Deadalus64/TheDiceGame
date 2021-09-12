@@ -8,13 +8,13 @@ document.querySelector(".dice .img1").setAttribute("src", images1);
 document.querySelector(".dice .img2").setAttribute("src", images2);
 
 if(randomNumber1 === randomNumber2){
-  document.querySelector(".container h1").innerHTML = "IT IS A DRAW";
+  document.querySelector(".container h1").innerHTML = "IT IS A DRAW!";
 }
 else if(randomNumber1 > randomNumber2){
-document.querySelector(".container h1").innerHTML = "Player 1 has one";
+document.querySelector(".container h1").innerHTML = "Player 1 WON! 🏆";
 }
 else {
-  document.querySelector(".container h1").innerHTML = "Player 2 has one";
+  document.querySelector(".container h1").innerHTML = "Player 2 WON! 🏆";
 
 }
 
